@@ -25,6 +25,6 @@ WHERE map=531 and spawntimesecs=7200;
 
 -- Blackwing Lair
 update creature c
-inner join  creature_template ct  on ct.entry = c.id
+inner join  creature_template ct on (ct.entry = c.id1 or ct.entry = c.id2 or ct.entry = c.id3)
 set c.spawntimesecs = 518400
 where c.map = 469 and ct.minlevel >= 60 and c.spawntimesecs = 14400;
