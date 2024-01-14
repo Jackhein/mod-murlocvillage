@@ -13,3 +13,8 @@ WHERE ID = 2;
 UPDATE `battleground_template`
 SET `MinPlayersPerTeam` = 5, `MaxPlayersPerTeam` = 10
 WHERE ID = 3;
+
+-- Eye of The Storm
+UPDATE `battleground_template`
+SET `MinPlayersPerTeam` = 5, `MaxPlayersPerTeam` = 10
+WHERE ID = 7;
