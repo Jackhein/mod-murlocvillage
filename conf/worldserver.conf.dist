@@ -1256,7 +1256,7 @@ Visibility.GroupMode = 1
 
 Visibility.Distance.Continents = 200
 Visibility.Distance.Instances = 200
-Visibility.Distance.BGArenas = 333
+Visibility.Distance.BGArenas = 250
 
 #
 #    Visibility.Notify.Period.OnContinents
