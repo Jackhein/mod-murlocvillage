@@ -1,6 +1,6 @@
 -- lock dark portal
 DELETE  FROM `gameobject` WHERE `guid` = 170001;
-INSERT INTO `gameobject` VALUES (170001,190784,0,0,0,1,1,-11903.8,-3208.54,-14.8329,3.33511,0,0,-0.995323,0.096606,0,255,1,'',0);
+INSERT INTO `gameobject` VALUES (170001,190784,0,0,0,1,1,-11903.8,-3208.54,-14.8329,3.33511,-0.995323,0.096606,0,255,1,'',0);
 
 DELETE FROM `areatrigger_teleport` WHERE  `ID`=4354;
 DELETE FROM `areatrigger_scripts` WHERE  `entry`=4354;
