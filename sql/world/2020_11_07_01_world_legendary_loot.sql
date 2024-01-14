@@ -46,7 +46,7 @@ INSERT INTO `creature_loot_template` (`Entry`,`Item`,`Reference`,`Chance`,`Quest
 VALUES (11502,17203,0,50,0,1,0,1,1,null);
 
 INSERT INTO gameobject_loot_template (`Entry`,`Item`,`Reference`,`Chance`,`QuestRequired`,`LootMode`,`GroupId`,`MinCount`,`MaxCount`,`Comment`)
-VALUES (16719, 17203, 0, 50,  0, 1, 0, 1, 1, "Cache of the Firelord - Sulfuron Ingot");
+VALUES (16719, 17203, 0, 50,  0, 1, 0, 1, 1, "Cache of the Firelord - Sulfuron Ingot"),
        (16719, 30001, 30001, 25, 0, 1, 0, 1, 1, NULL);
 
 
