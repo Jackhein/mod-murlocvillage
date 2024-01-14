@@ -74,13 +74,13 @@ SET chance=20
 WHERE Reference = 34024 AND groupId = 1;
 
 UPDATE creature_loot_template
-SET chance=100
-WHERE Reference = 34024 AND groupId = 1 AND Entry = 15339;
+SET chance=100, MaxCount=1
+WHERE Reference = 34024 AND Entry = 15339;
 
 UPDATE creature_loot_template
 SET chance=20, MaxCount=2
 WHERE Reference = 34045;
 
 UPDATE creature_loot_template
-SET chance=100, MaxCount=3
+SET chance=100, MaxCount=2
 WHERE Reference = 34045 AND Entry IN (15727, 15299);
