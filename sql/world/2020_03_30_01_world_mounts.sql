@@ -10,7 +10,7 @@ where it.name='Swift Zulian Tiger';
 
 update creature_loot_template clt
     inner join item_template it on it.entry = clt.item
-    set clt.Chance = 70
+    set clt.Chance = 10
 where it.name='Swift Razzashi Raptor';
 
 
