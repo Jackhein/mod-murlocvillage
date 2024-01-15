@@ -37,7 +37,7 @@ INSERT into `achievement_reward_locale`
 (`ID`,
  `Locale`,
  `Subject`,
- `Body`)
+ `Text`)
 VALUES
 (
    11,
