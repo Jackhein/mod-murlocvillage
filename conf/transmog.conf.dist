@@ -63,7 +63,7 @@
 Transmogrification.Enable = 1
 Transmogrification.UseCollectionSystem = 0
 Transmogrification.AllowHiddenTransmog = 1
-Transmogrification.TrackUnusableItems = 1
+Transmogrification.TrackUnusableItems = 0
 Transmogrification.RetroActiveAppearances = 0
 Transmogrification.ResetRetroActiveAppearancesFlag = 0
 
