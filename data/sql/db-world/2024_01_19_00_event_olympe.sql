@@ -1,0 +1,2 @@
+--Event olympic games
+--update game_event set start_time="2024-07-01 00:00:01", end_time="2024-07-31 23:59:00", length=44638, occurence=2098080 where eventEntry=46;
